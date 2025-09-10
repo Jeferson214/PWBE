@@ -1,0 +1,206 @@
+body {
+    font-family: 'ITCBenguiatStdMediumCnIt', sans-serif;
+    margin: 2px;
+    padding: 2px;
+    background-color: #18171736;
+    background-image: url("imagens/Saborama\ Background.png");
+    color: #1e1e1e;
+    
+}
+
+@font-face {
+  font-family: 'ITCBenguiatStdMediumCnIt';
+  src: url('fonts/ITCBenguiatStdMediumCnIt.OTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*header {
+    background-color: #d94f30;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}*/
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 1.8em;
+    border-radius: 10px;
+    background-color: #d94f30;
+
+}
+
+.logo-container {
+  flex: 1;
+  text-align: left;
+}
+.logo {
+    font-size: 1rem;
+    width: 100px;
+    height: auto;
+}
+
+.titulo-container {
+  text-align: center;
+}
+
+.titulo-container h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.vazio {
+  flex: 1;
+}
+nav {
+    background-color: #e89352;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 0.2em;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #d3cbc8f3;
+}
+
+footer {
+    background-color: #d94f30;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    border-radius: 10px;
+    bottom: 0;
+}
+
+.destaque {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-around;
+    margin-top: 2em;
+    width: auto;
+}
+
+.destaque-item {
+    width: 800px;
+    border: 6px solid #7d7c7c;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destaque-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.receita {
+    margin-bottom: 3em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+}
+
+.receita h3,
+.ingrediente h3 {
+    color: #d94f30;
+}
+
+.receita-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 1em auto;
+}
+
+.ingrediente {
+    margin-bottom: 3em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+}
+
+.ingrediente img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 1em auto;}
+
+
+.curiosidade {
+    margin-bottom: 3em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+}
+
+.curiosidade h3 {
+    color: #d94f30;
+}
+
+.curiosidade img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 1em auto;
+}
+.form-contato {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-contato label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-contato button {
+    margin-top: 1em;
+    padding: 0.7em 1.5em;
+    background-color: #d94f30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-contato button:hover {
+    background-color: #b43e25;
+}

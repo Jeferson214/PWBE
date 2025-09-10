@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato | Saborama</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo-container"></div>
+        <img src="imagens/Saborama_Logo2.png" alt="Logo do Blog Saborama" class="logo">
+        </div>
+        <div class="titulo-container">
+        <h1>Blog Saborama</h1>
+        </div>
+        <div class="vazio"></div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="receitas.html">Receitas</a>
+        <a href="ingredientes.html">Ingredientes</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="contatos.html">Contatos</a>
+    </nav>
+    <main>
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma dúvida, sugestão ou receita para compartilhar? Envie sua mensagem abaixo:</p>
+
+        <form class="form-contato" id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+             <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Blog Saborama - Todos os direitos reservados</p>
+    </footer>
+    <script src="contato.js"></script>
+</body>
+</html>
